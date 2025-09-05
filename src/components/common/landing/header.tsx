@@ -21,7 +21,9 @@ export function Header() {
       </nav>
 
       {/* CTA кнопка */}
-      <Button className='rounded-full px-6 py-2'>Начать работу</Button>
+      <Link href='/auth' passHref>
+        <Button className='rounded-full px-6 py-2'>Начать работу</Button>
+      </Link>
     </header>
   );
 }
